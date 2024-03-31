@@ -23,26 +23,26 @@ USER $NB_UID
 RUN mamba install -y -q \
     altair \
     beautifulsoup4==4.12.2 \
-    bokeh==3.3.0 \
+    bokeh==3.1.1 \
     bottleneck \
     brotli \
     cloudpickle \
-    dask==2023.10.0 \
+    dask==2023.5.0 \
     dill \
     h5py \
     ipympl \
-    matplotlib==3.8.0 \
+    matplotlib==3.7.0 \
     numba \
     numexpr \
     openblas==0.3.24 \
     openpyxl \
-    pandas==2.1.1 \
+    pandas==2.0.3 \
     patsy \
     protobuf \
-    pytables==3.9.1 \
-    scikit-image==0.22.0 \
+    pytables==3.8.0 \
+    scikit-image==0.21.0 \
     scikit-learn==1.3.1 \
-    scipy==1.11.3 \
+    scipy==1.10.1 \
     seaborn==0.13.0 \
     sqlalchemy==2.0.22 \
     statsmodels \
